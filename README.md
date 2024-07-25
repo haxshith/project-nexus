@@ -12,10 +12,6 @@ Installation
 Usage
 License
 
-𝐃𝐞𝐦𝐨
-
-[Include a link to the live demo if available]
-
 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
 
 Responsive design
