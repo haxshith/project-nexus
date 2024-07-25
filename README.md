@@ -1,27 +1,29 @@
 # project-nexus
 
-Sign In & Sign Up Form
+𝐒𝐢𝐠𝐧 𝐈𝐧 & 𝐒𝐢𝐠𝐧 𝐔𝐩 𝐅𝐨𝐫𝐦
 
 This project is a responsive sign-in and sign-up form with animations and a simple design, built using HTML, CSS, and JavaScript.
 
-Table of Contents
+𝐓𝐚𝐛𝐥𝐞 𝐨𝐟 𝐂𝐨𝐧𝐭𝐞𝐧𝐭𝐬
 
 Demo
 Features
 Installation
 Usage
 License
-Demo
+
+𝐃𝐞𝐦𝐨
 
 [Include a link to the live demo if available]
 
-Features
+𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
 
 Responsive design
 Animated transitions between sign-in and sign-up forms
 Google sign-in integration (placeholder)
 CSS animations and styling
-Installation
+
+𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐭𝐢𝐨𝐧
 
 To run this project locally, follow these steps:
 
@@ -49,7 +51,7 @@ start index.html # For Windows
 xdg-open index.html # For Linux
 This will open the sign-in and sign-up form in your default web browser.
 
-Usage
+𝐔𝐬𝐚𝐠𝐞
 
 Sign In: Enter your username and password, or use the Google sign-in option.
 Sign Up: Enter your username, phone number, email, and password to create a new account.
