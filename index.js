@@ -1,37 +1,9 @@
-const sign_in_btn = document.querySelector("#sign-in-btn");
-const sign_up_btn = document.querySelector("#sign-up-btn");
-const container = document.querySelector(".container");
-const logoContainer = document.querySelector(".logo");
-
-let timeoutFunction; // Declare a variable to hold the timeout identifier
-
-sign_up_btn.addEventListener("click", () => {
-  container.classList.add("sign-up-mode");
-  timeoutFunction = setTimeout(() => {
-    logoContainer.classList.remove("logo-color");
-  }, 1000);
+const signInBtnLink = document.querySelector('.signInBtn-link');
+const signUpBtnLink = document.querySelector('.signUpBtn-link');
+const wrapper = document.querySelector('.wrapper');
+signUpBtnLink.addEventListener('click', () => {
+    wrapper.classList.toggle('active');
 });
-
-sign_in_btn.addEventListener("click", () => {
-  container.classList.remove("sign-up-mode");
-  logoContainer.classList.add("logo-color");
-  clearTimeout(timeoutFunction); // Clear the timeout if needed
-});
-
-function onSignIn(googleUser) {
-  var profile = googleUser.getBasicProfile();
-  console.log("Logged in as: " + profile.getName());
-}
-
-function onSignOut() {}
-
-$("#search-icon").click(function () {
-  $(".nav").toggleClass("search");
-  $(".nav").toggleClass("no-search");
-  $(".search-input").toggleClass("search-active");
-});
-
-$(".menu-toggle").click(function () {
-  $(".nav").toggleClass("mobile-nav");
-  $(this).toggleClass("is-active");
+signInBtnLink.addEventListener('click', () => {
+    wrapper.classList.toggle('active');
 });
